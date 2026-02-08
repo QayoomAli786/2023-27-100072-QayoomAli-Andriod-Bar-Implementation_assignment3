@@ -1,161 +1,86 @@
-# Android_Bar_Implementation_Qasim_Hussain_100067
-Assignment No. 3
-Android App Bar Implementation Using Java and XML
-1. Introduction
+# Android_Bar_Implementation
 
-This assignment demonstrates the implementation of different types of app bars in Android using Java and XML.
-The main goal is to understand the difference between Action Bar, Toolbar, and Custom Toolbar, and how each one is used in Android applications.
+**Developer:**  Qayoom ALI
+**Subject Name:** Mobile App Development
 
-2. Objectives
+**Overwiew:**
 
-The objectives of this assignment are:
+Android Bar Implementation is a structured mobile application developed using Android Studio to demonstrate the working and customization of the Android App Bar (Toolbar). The project focuses on improving navigation, user interaction, and interface design by implementing a modern app bar with menu options and smooth functionality.
 
-To understand the default Action Bar in Android
+This implementation helps in understanding how an app bar enhances application usability and provides quick access to important actions within an Android application.
 
-To implement a Toolbar as an alternative to the Action Bar
+** Objectives**
 
-To design and implement a fully customized Toolbar
+To understand the concept of Android App Bar and Toolbar.
 
-To use Java for logic and XML for UI design
+To implement a custom toolbar in an Android application.
 
-To manage multiple activities in a single Android project
+To create and manage menu options in the app bar.
 
-3. Tools and Technologies Used
+To improve navigation and user experience.
+
+To learn Android UI design and layout structure.
+
+To understand toolbar customization techniques.
+
+To build a professional and structured Android interface.
+
+**Features**
+
+Custom Android Toolbar integration
+
+Simple and clean user interface
+
+Menu options added in App Bar
+
+Smooth navigation handling
+
+Structured project design
+
+Easy-to-understand code implementation
+
+Responsive layout for better user experience
+
+**Tools & Technologies**
 
 Android Studio
 
-Java Programming Language
+Java / Kotlin
 
-XML for Layout Design
+XML Layout Design
 
 Android SDK
 
-4. Project Description
+Gradle Build System
 
-The application consists of three different activities, each demonstrating a different type of app bar:
+**How to Run the Project**
 
-Action Bar Activity
+Open Android Studio.
 
-Toolbar Activity
+Click on Open Project.
 
-Custom Toolbar Activity
+Select the project folder.
 
-Each activity is implemented separately to clearly show the differences and usage.
+Wait for Gradle build to finish.
 
-5. Step-by-Step Implementation
-Step 1: Create a New Android Project
+Connect emulator or Android device.
 
-Open Android Studio
+Click Run to execute the project.
 
-Create a new project
+**Learning Outcomes**
 
-Select Empty Activity
+Understanding of Android App Bar usage
 
-Choose Java as the language
+Practical experience with Toolbar implementation
 
-Finish project setup
+Knowledge of menu creation and handling
 
-Step 2: Action Bar Implementation
+Improved Android UI/UX design skills
 
-Activity Name: ActionBarActivity
+Better understanding of Android project structure
 
-Use the default Action Bar provided by Android
+Hands-on experience in mobile app interface development
 
-Display the application title in the Action Bar
+** Conclusion**
 
-Create an options menu using a menu XML file
-
-Add menu items such as "Settings" and "About"
-
-Handle menu item click events in Java
-
-Purpose:
-This step demonstrates the use of the default Action Bar without any customization.
-
-Step 3: Toolbar Implementation
-
-Activity Name: ToolbarActivity
-
-Disable the default Action Bar from the theme
-
-Add a Toolbar widget in the XML layout
-
-Set the Toolbar as the Action Bar using setSupportActionBar()
-
-Display a title on the Toolbar
-
-Enable back navigation (Up button)
-
-Add menu items and handle click events
-
-Purpose:
-This step shows how a Toolbar can replace the default Action Bar and provide more flexibility.
-
-Step 4: Custom Toolbar Implementation
-
-Activity Name: CustomToolbarActivity
-
-Create a separate XML layout for a custom toolbar
-
-Add custom views such as:
-
-ImageView for app logo
-
-TextView for custom title
-
-ImageButton for custom actions
-
-Attach the custom toolbar to the activity
-
-Handle button click actions using Java
-
-Purpose:
-This step demonstrates how to fully customize the app bar according to application requirements.
-
-Step 5: Android Manifest Configuration
-
-Register all three activities in AndroidManifest.xml
-
-Ensure correct activity launching and navigation
-
-6. Project Structure
-
-ActionBarActivity.java
-
-ToolbarActivity.java
-
-CustomToolbarActivity.java
-
-activity_action_bar.xml
-
-activity_toolbar.xml
-
-activity_custom_toolbar.xml
-
-custom_toolbar_layout.xml
-
-menu XML files
-
-AndroidManifest.xml
-
-7. Output
-
-A working Android application
-
-Three activities demonstrating:
-
-Default Action Bar
-
-Toolbar
-
-Custom Toolbar
-
-Clean UI with proper navigation
-
-Error-free Java and XML code
-
-8. Conclusion
-
-This assignment helped in understanding the concept of app bars in Android.
-By implementing Action Bar, Toolbar, and Custom Toolbar separately, the differences and use cases of each component became clear.
-This knowledge is essential for building professional and user-friendly Android applications.
+This project presents a clear implementation of the Android App Bar and its functionality in a mobile application. It demonstrates how a well-designed toolbar improves navigation, accessibility, and user experience. Through this project, essential Android development concepts such as UI design, menu integration, and toolbar customization were explored in a practical way. This implementation provides a strong base for developing modern, interactive, and user-friendly Android applications in future projects.
